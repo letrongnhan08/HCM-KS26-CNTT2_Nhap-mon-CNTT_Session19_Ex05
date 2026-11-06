@@ -4,16 +4,25 @@
 
 - **Vẽ sơ đồ ,giải thích:**
 
-Lớp 1: Tri thức (Something you know)  (mật khẩu,mã pin) 
-     Bắt nhập mật khẩu
+Lớp 1: Tri thức (Something you know) - (mật khẩu,mã pin) 
+    Bắt nhập mật khẩu
+
         ↓
+        
  (Hacker có mật khẩu \-\> Vượt qua)  
-         ↓   
- Lớp 2: Sở hữu vật lý (Something you have)  (thiết bị vật lý có authenticators)
- nhập mã TOTP ( Hacker không có thiết bị của người dùng vì mã Secret Key nằm trong thiết bị người dùng,mã thay đổi liên tục sau 30 giây, nhập sai mã và bị chặn) 
-        ↓ 
+ 
+        ↓
+
+ Lớp 2: Sở hữu vật lý (Something you have)  - (thiết bị vật lý có authenticators)
+     Nhập mã TOTP 
+  (Hacker không có thiết bị của người dùng vì mã Secret Key nằm trong thiết bị người dùng,mã thay đổi liên tục sau 30 giây, nhập sai mã và bị chặn) 
+  
+        ↓
+
  (Xác thực mã không khớp và bị chặn)  
-         ↓   
+ 
+         ↓ 
+
  Lớp 3:Xác thực sinh trắc học (Something you are)       
  \- FaceID / Vân tay   
 (Không khớp và bị chặn)
